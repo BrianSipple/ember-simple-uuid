@@ -1,6 +1,14 @@
-# Ember-simple-uuid
+# ember-simple-uuid
 
-This README outlines the details of collaborating on this Ember addon.
+_Direct client-side UUID generation that exposes [node-uuid](https://github.com/broofa/node-uuid) as an importable module_.
+
+Original credit for this addon's approach is due to [ember-cli-uuid](https://github.com/thaume/ember-cli-uuid). `ember-simple-uuid` offers the same functionality -- but without any dependency on `ember-data` or initializer decoration of `DS.Adapter`. Those wanting such extra behavior may well want to give `ember-cli-uuid` a look.
+
+## Usage
+
+```
+
+```
 
 ## Installation
 

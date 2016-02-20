@@ -1,7 +1,7 @@
 {
   "name": "ember-simple-uuid",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Direct client-side UUID generation",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -30,7 +30,6 @@
     "ember-cli-release": "0.2.8",
     "ember-cli-sri": "^2.0.0",
     "ember-cli-uglify": "^1.2.0",
-    "ember-data": "^2.3.0",
     "ember-disable-prototype-extensions": "^1.1.0",
     "ember-disable-proxy-controllers": "^1.0.1",
     "ember-export-application-global": "^1.0.4",
@@ -40,7 +39,11 @@
     "loader.js": "^4.0.0"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember uuid",
+    "unique id",
+    "ember unique id",
+    "ember node uuid"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
