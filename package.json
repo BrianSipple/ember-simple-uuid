@@ -1,6 +1,6 @@
 {
   "name": "ember-simple-uuid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Direct client-side UUID generation",
   "directories": {
     "doc": "doc",
@@ -43,7 +43,9 @@
     "ember uuid",
     "unique id",
     "ember unique id",
-    "ember node uuid"
+    "ember node uuid",
+    "client unique id",
+    "ember client uuid"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
