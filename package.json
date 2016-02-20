@@ -43,7 +43,9 @@
     "ember uuid",
     "unique id",
     "ember unique id",
-    "ember node uuid"
+    "ember node uuid",
+    "client unique id",
+    "ember client uuid"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.5"
