@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/BrianSipple/ember-simple-uuid",
   "engines": {
     "node": ">= 4.1.x"
   },
