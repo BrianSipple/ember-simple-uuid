@@ -12,7 +12,7 @@ Original credit for this addon's approach is due to [ember-cli-uuid](https://git
 
 ## Usage
 
-Straight up:
+### Straight up:
 ```
 import uuid from 'ember-simple-uuid';
 
@@ -22,7 +22,7 @@ const babyName = uuid();
 
 ```
 
-With arguments -- for example, generating two IDs in a single buffer:
+### With arguments -- for example, generating two IDs in a single buffer:
 ```
 import uuid from 'ember-simple-uuid';
 
