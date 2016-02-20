@@ -1,5 +1,8 @@
 # ember-simple-uuid
 
+[![npm version](https://badge.fury.io/js/ember-simple-uuid.svg)](https://badge.fury.io/js/ember-simple-uuid) [![Build Status](https://travis-ci.org/BrianSipple/ember-simple-uuid.svg?branch=master)](https://travis-ci.org/BrianSipple/ember-simple-uuid) [![Ember Observer Score](http://emberobserver.com/badges/ember-simple-uuid.svg)](http://emberobserver.com/addons/ember-simple-uuid)
+
+
 _Direct client-side UUID generation that exposes [node-uuid](https://github.com/broofa/node-uuid)'s `uuid.v4` implementation as an importable module_.
 
 Original credit for this addon's approach is due to [ember-cli-uuid](https://github.com/thaume/ember-cli-uuid). `ember-simple-uuid` wraps the same function -- but without any dependency on `ember-data` or initializer decoration of `DS.Adapter`. Those wanting such extra behavior may well want to give `ember-cli-uuid` a look.
@@ -15,9 +18,11 @@ import uuid from 'ember-simple-uuid';
 
 const babyName = uuid();
 
+// babyName >> 'ad84fb10-19c4-01e1-2b0d-7b25c4ea062'
+
 ```
 
-With arguments -- for example generating two IDs in a single buffer:
+With arguments -- for example, generating two IDs in a single buffer:
 ```
 import uuid from 'ember-simple-uuid';
 
