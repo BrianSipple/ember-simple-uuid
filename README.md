@@ -8,7 +8,7 @@ _Direct client-side UUID generation that exposes [node-uuid](https://github.com/
 Original credit for this addon's approach is due to [`ember-cli-uuid`](https://github.com/thaume/ember-cli-uuid).  
 `ember-simple-uuid` -- this addon -- wraps the same function as `ember-cli-uuid` (`uuid.v4`) -- but without any dependency on `ember-data` and without an initializer that decorates `DS.Adapter`. Those wanting such extra behavior may well want to give `ember-cli-uuid` a look.
 
-`ember-simple-uuid` also gathers any arguments passed to its function and spreads them to fit the `uuid.v4` function signature. This enables the configuration options documented [here](https://github.com/broofa/node-uuid#uuidv4options--buffer--offset).
+`ember-simple-uuid` also [gathers any arguments passed to its function](/addon/utils/uuid.js) and spreads them to fit the `uuid.v4` function signature. This enables the configuration options documented [here](https://github.com/broofa/node-uuid#uuidv4options--buffer--offset).
 
 
 ## Usage
