@@ -1,5 +1,7 @@
 # ember-simple-uuid
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/BrianSipple/ember-simple-uuid.svg)](https://greenkeeper.io/)
+
 [![npm version](https://badge.fury.io/js/ember-simple-uuid.svg)](https://badge.fury.io/js/ember-simple-uuid) [![Build Status](https://travis-ci.org/BrianSipple/ember-simple-uuid.svg?branch=master)](https://travis-ci.org/BrianSipple/ember-simple-uuid) [![Ember Observer Score](http://emberobserver.com/badges/ember-simple-uuid.svg)](http://emberobserver.com/addons/ember-simple-uuid)
 
 
